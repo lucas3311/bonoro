@@ -11,7 +11,7 @@ var T = new Twit({
 });
 
 tweetIt();
-setInterval(tweetIt, 7200000) 
+setInterval(tweetIt, 7200000 * 2) 
 
 function tweetIt() {
 
